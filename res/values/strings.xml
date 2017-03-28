@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SmsAppActivity!</string>
+    <string name="app_name">SmsAppEoms</string>
+    <string name="no_contacts">No Contact Added</string>
+    
+    <string name="plus">+</string>
+    <string name="add">Add</string>
+    
+    <string name="recipients">Message Recipient(s)</string>
+    <string name="message">Message Body</string>
+    
+    <string name="send_msg">Send Message</string>
+    <string name="send">Send</string>
+    <string name="arrow">></string>
+    <string name="done">Done</string>
+    <string name="delete">Delete</string>
+    
+    <string name="nothingtoshow">Oops! No Contacts Listed!</string>
+    
+    <string name="empty"></string>
+   
+    <string name="garbage">helllolllolasdfjalsdfaksdhfakshdfaklshdfaksfd jashdf jasdf asdfkjasfdkas asdflaksjfd jansdfl kjasdjf kjjashdfa sfljasdfj ajsdlfkjasdf lkasjdflkaksjdflkajsdflasjdf
+        ajsdf llkasjdflasdjf lkajsdfljasldf lasdlfjasdf lksjdfalfd
+        helllolllolasdfjalsdfaksdhfakshdfaklshdfaksfd jashdf jasdf asdfkjasfdkas asdflaksjfd jansdfl kjasdjf kjjashdfa sfljasdfj ajsdlfkjasdf lkasjdflkaksjdflkajsdflasjdf
+        ajsdf llkasjdflasdjf lkajsdfljasldf lasdlfjasdf lksjdfalfd
+        helllolllolasdfjalsdfaksdhfakshdfaklshdfaksfd jashdf jasdf asdfkjasfdkas asdflaksjfd jansdfl kjasdjf kjjashdfa sfljasdfj ajsdlfkjasdf lkasjdflkaksjdflkajsdflasjdf
+        ajsdf llkasjdflasdjf lkajsdfljasldf lasdlfjasdf lksjdfalfd
+        helllolllolasdfjalsdfaksdhfakshdfaklshdfaksfd jashdf jasdf asdfkjasfdkas asdflaksjfd jansdfl kjasdjf kjjashdfa sfljasdfj ajsdlfkjasdf lkasjdflkaksjdflkajsdflasjdf
+        ajsdf llkasjdflasdjf lkajsdfljasldf lasdlfjasdf lksjdfalfd</string>
+    
+</resources>
