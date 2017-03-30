@@ -122,6 +122,8 @@ public class SmsAppEomsActivity extends Activity {
 	protected void onResume() {
 		// TODO Auto-generated method stub
 		super.onResume();
+		
+		Log.d("AppCrash", "OnResume");
 
 		tv_contacts = (TextView) findViewById(R.id.txt_contacts);
 		et_message = (EditText) findViewById(R.id.txt_message);
@@ -134,7 +136,7 @@ public class SmsAppEomsActivity extends Activity {
 				tv_contacts.setText(contacts);
 			}
 			if (b.getString("msgBody") != null
-					&& !b.getString("msgBody").trim().equals("")) {
+					&& !b.getString("msgBody").trim().equals("") && !b.getString("msgBody").equals(R.string.empty)) {
 				String msgBody = b.getString("msgBody");
 				et_message.setText(msgBody, TextView.BufferType.EDITABLE);
 			}
@@ -154,7 +156,7 @@ public class SmsAppEomsActivity extends Activity {
 		setIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		startActivity(setIntent);
 	}
-
+/*
 	protected void onRestoreInstanceState(Bundle savedInstanceState) {
 		super.onRestoreInstanceState(savedInstanceState);
 		Log.d("retention", "onRestoreInstanceState");
@@ -172,7 +174,7 @@ public class SmsAppEomsActivity extends Activity {
 		outState.putCharSequence("msgBody", msgBody);
 
 	}
-
+*/
 	public void mySmsSender(String phoneNumber, String smsBody) {
 		String SMS_SENT = "SMS_SENT";
 		String SMS_DELIVERED = "SMS_DELIVERED";
